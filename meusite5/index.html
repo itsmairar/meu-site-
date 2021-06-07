@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.google.com/specimen/Source+Sans+Pro" rel="stylesheet" type="text/css"/>
+    <link href="css2/style.css" rel="stylesheet" type="text/css"/>
+    <title> Meu site </title>
+</head>
+<body>
+
+
+
+    <header>
+        <a href="#" class="menu-abrir" onclick="abrirmenu()" >&#9776; MENU </a>
+    </header>
+    <nav id="opmenu">
+        <a href="#" onclick="fecharmenu()">&times; Fechar </a>
+        <a href="#"> Curriculo </a>
+        <a href="#"> Contato </a>
+        <a href="#"> Redes sociais </a>
+    </nav>
+
+
+ <main id="corposite">
+
+    <div id="sobremim"  class="titulo">
+    <h1> Sobre mim - Maíra Ribeiro </h1>
+    </div>
+      
+  <div id="perfil" class="imagem"> 
+   <img width="900px" id="foto1" alt="Eu linda"  src="img2/foto1.jpg">
+  </div> 
+
+  <p>
+    <h1>Quem sou eu?</h1>
+    <h2> Para quem nunca me viu, essa sou eu. Tenho 18 anos e estou estudando desenvolvimento de software no SENAI-Lauro de Freitas.
+
+    </h2>
+    <h1> 
+ </p>
+
+
+
+ <div id="formacao" class="curriculo">
+    <h1> Formação </h1> 
+    <h2><ul><li> "Ensino Médio completo
+    CEMA - Centro Educacional Miguel Alves, Camaçari - Ba,  CEMA" </li></ul></h2>
+         
+    <h1> Formação complementar </h1>
+    <h2><ul><li> Curso de Inglês
+        CEBRAC - Centro Brasileiro de Cursos, Camaçari - Ba, Brasil</li>
+    
+        <li> Curso de instrumentos musicais - violoncelo e teclado Cidade do Saber, Camaçari - Ba, Brasil</li>
+    
+        <li> Curso técnico de desenvolvimento de sistema SENAI – Serviço Nacional de Aprendizagem Industrial, Camaçari – BA, Brasil</li></ul></h2>
+
+    <h1> Experiência </h1>
+    <h2><ul><li> Função: Operador de mercado </li> 
+    <li> Tempo de experiência: 3 meses </li>
+    <li> Empresa: G Barbosa </li>
+    </ul></h2>
+
+    <div id="contato" class="curriculo">
+    <h1> Contato </h1>
+    <h2><ul><li> Celular: (71) 99219-0203 </li>
+    <li> Email: itsmairar@outlook.com </li>
+    </ul></h2>
+    </div>
+
+    <div id="redesocial"  class="curriculo2">
+    <h1> Redes sociais </h1>
+      
+    <h2><ul>
+    <li><a href="http://linkedin.com/in/maíra-santana-5b81761b9"><img width="430px" src="./img2/linkedin.jpg"/></a></li>
+    <li><a href="https://www.facebook.com/maira.ribeiro.14203"><img width="350px" src="./img2/facebook.jpg"/></a></li>  
+    <li><a href="https://www.instagram.com/itsmairar/"><img width= "350px" src="./img2/instagram.jpg"/></a></li>
+    </ul></h2></div>
+
+  </main>
+  <script>
+      function abrirmenu() {
+          document.getElementById("opmenu").style.width = "300px";
+          document.getElementById("corposite").style.marginLeft = "300px";
+      }
+
+      function fecharmenu(){
+          document.getElementById("opmenu").style.width = "0px";
+          document.getElementById("corposite").style.marginLeft = "0px";
+      }
+  </script>
+</body>
+</html>

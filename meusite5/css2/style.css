@@ -1,0 +1,69 @@
+html {
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    background-color: white);
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(72, 160, 131);
+}
+
+h2{
+    font-size: 75px;
+    color: black;
+}
+
+#foto1{
+    margin: 0 auto;
+    border: 30px solid white;
+    border-radius: 500px;
+}
+
+.curriculo2{
+    display: inline;
+}
+
+body{
+    margin: 0px;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(72, 160, 131);
+    padding: 10px;
+}
+
+.menu-abrir{
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    heigth: 100%;
+    width: 0px;
+    background-color: rgb(72, 160, 131);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a{
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a hover{
+    color: rgb(72, 160, 131);
+    background-color: white;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
